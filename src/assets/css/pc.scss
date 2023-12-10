@@ -1,0 +1,15 @@
+@charset "UTF-8";
+$font-family-gothic: 'Roboto','Hiragino Sans','Meiryo','Hiragino Kaku Gothic ProN',sans-serif;
+$font-family-mincho: 'YuMincho', 'Yu Mincho', 'Hiragino Mincho ProN', 'MS PMincho', serif;
+
+/*-----------------------------------
+common
+------------------------------------*/
+
+.pcOnly {
+	display: block !important;
+}
+
+.spOnly {
+	display: none !important;
+}

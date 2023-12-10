@@ -1,0 +1,208 @@
+@charset "utf-8";
+$font-family-gothic: 'Roboto','Hiragino Sans','Meiryo','Hiragino Kaku Gothic ProN',sans-serif;
+$font-family-mincho: 'YuMincho', 'Yu Mincho', 'Hiragino Mincho ProN', 'MS PMincho', serif;
+
+ /* --------------------------------------------------------------------------------------
+ RESET
+--------------------------------------------------------------------------------------- */
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers
+*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h2, h3, h4, h5{
+	font-weight: 600;
+}
+
+/* --------------------------------------------------------------------------------------
+ COMMON
+--------------------------------------------------------------------------------------- */
+body {
+	color: #333;
+	background-color: #fff;
+	font-family: $font-family-gothic;
+	font-size: 18px;
+	line-height: 1.33;
+	letter-spacing: 0;
+	-webkit-text-size-adjust: none;
+	width: 100%;
+	font-feature-settings: "palt";
+	overflow-x: hidden;
+	
+	&.no-scroll {
+		overflow-y: hidden;
+	}
+}
+
+html {
+	width: 100%;
+	overscroll-behavior: none;
+	// scroll-behavior: smooth;
+}
+
+input,
+select,
+textarea {
+	font-family: $font-family-gothic;
+	font-size: 100%;
+	letter-spacing: 0.08em;
+}
+
+a {
+	color: #000;
+	cursor: pointer;
+	outline: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+strong{
+	font-weight: 600;
+}
+
+sup {
+	vertical-align: super;
+    font-size: 14px;
+	font-weight: bold;
+}
